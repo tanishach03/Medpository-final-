@@ -1,0 +1,33 @@
+body{
+    background-color: black;
+    color: #ffffff;
+}
+*{
+    margin:0;
+    padding:0;  
+}
+
+.header{
+    min-height:100vh;
+    width:100%;
+    background-image: none;
+    position: absolute;
+    display: block;
+    text-align: center;
+}
+
+
+.headings{
+    display: flex;
+    margin: auto;
+    height: 100%;
+    width: 100%;
+}
+
+.dark{
+    background-color: black;
+    width: 100%;
+}
+.container-fluid{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
